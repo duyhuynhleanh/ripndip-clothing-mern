@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Welcome To Heck Slides (Black Flame)',
     image: '/images/dep_den.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Welcome to Heck Slides (White)',
     image: '/images/dep_trang.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Gluten Free Hoodie (Black)',
     image: '/images/hoodie_den.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'The Great Wave Of Nerm Hoodie (Purple Dye)',
     image: '/images/hoodie_tim.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'The Great Wave Of Nerm Hoodie (Blue Dye)',
     image: '/images/hoodie_xanh.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Pablo Swim Shorts (Black)',
     image: '/images/quan_hoa.jpg',
     description:
@@ -79,7 +73,6 @@ const products = [
   },
 
   {
-    _id: '7',
     name: 'Mid City Sweatshorts (Multi)',
     image: '/images/quan_5_mau.jpg',
     description:
@@ -93,7 +86,6 @@ const products = [
   },
 
   {
-    _id: '8',
     name: 'Pablo Swim Shorts (Black)',
     image: '/images/quan_dai_tim.jpg',
     description:
@@ -107,7 +99,6 @@ const products = [
   },
 
   {
-    _id: '9',
     name: 'Down By The Seashore Tee (Black)',
     image: '/images/tshirt_den.jpg',
     description:
@@ -121,7 +112,6 @@ const products = [
   },
 
   {
-    _id: '10',
     name: 'Gluten Free Tee (Natural)',
     image: '/images/tshirt_offwhite.jpg',
     description:
@@ -135,7 +125,6 @@ const products = [
   },
 
   {
-    _id: '11',
     name: 'Lord Nermal Pocket Tee (Spiral Dye)',
     image: '/images/tshirt_tiedye.jpg',
     description:
