@@ -3,7 +3,7 @@ const products = [
     name: 'Welcome To Heck Slides (Black Flame)',
     image: '/images/dep_den.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Giày Dép',
     price: 44.0,
@@ -15,7 +15,7 @@ const products = [
     name: 'Welcome to Heck Slides (White)',
     image: '/images/dep_trang.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Giày Dép',
     price: 44.0,
@@ -27,7 +27,7 @@ const products = [
     name: 'Gluten Free Hoodie (Black)',
     image: '/images/hoodie_den.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Hoodie',
     price: 88.0,
@@ -39,7 +39,7 @@ const products = [
     name: 'The Great Wave Of Nerm Hoodie (Purple Dye)',
     image: '/images/hoodie_tim.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'Sony',
     category: 'Hoodie',
     price: 94.0,
@@ -51,7 +51,7 @@ const products = [
     name: 'The Great Wave Of Nerm Hoodie (Blue Dye)',
     image: '/images/hoodie_xanh.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Hoodie',
     price: 94.0,
@@ -63,7 +63,7 @@ const products = [
     name: 'Pablo Swim Shorts (Black)',
     image: '/images/quan_hoa.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Quần short',
     price: 29.99,
@@ -76,7 +76,7 @@ const products = [
     name: 'Mid City Sweatshorts (Multi)',
     image: '/images/quan_5_mau.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Quần short',
     price: 77.0,
@@ -89,7 +89,7 @@ const products = [
     name: 'Pablo Swim Shorts (Black)',
     image: '/images/quan_dai_tim.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Quần',
     price: 115.0,
@@ -102,7 +102,7 @@ const products = [
     name: 'Down By The Seashore Tee (Black)',
     image: '/images/tshirt_den.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Áo t-shirt',
     price: 33.0,
@@ -115,7 +115,7 @@ const products = [
     name: 'Gluten Free Tee (Natural)',
     image: '/images/tshirt_offwhite.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. ',
     brand: 'RipnDip',
     category: 'Áo t-shirt',
     price: 33.0,
@@ -128,7 +128,7 @@ const products = [
     name: 'Lord Nermal Pocket Tee (Spiral Dye)',
     image: '/images/tshirt_tiedye.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Integer feugiat scelerisque varius morbi enim nunc faucibus a.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse.',
     brand: 'RipnDip',
     category: 'Áo t-shirt',
     price: 38.0,
