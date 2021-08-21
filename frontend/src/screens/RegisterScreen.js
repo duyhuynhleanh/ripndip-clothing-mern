@@ -47,7 +47,7 @@ const RegisterScreen = ({ location, history }) => {
           <Form.Label>Tên</Form.Label>
           <Form.Control
             type='name'
-            placeholder='Enter name'
+            placeholder='Nhập name'
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></Form.Control>
@@ -57,7 +57,7 @@ const RegisterScreen = ({ location, history }) => {
           <Form.Label>Địa chỉ Email</Form.Label>
           <Form.Control
             type='email'
-            placeholder='Enter email'
+            placeholder='Nhập email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           ></Form.Control>
@@ -67,7 +67,7 @@ const RegisterScreen = ({ location, history }) => {
           <Form.Label>Mật khẩu</Form.Label>
           <Form.Control
             type='password'
-            placeholder='Enter password'
+            placeholder='Nhập password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></Form.Control>
@@ -77,7 +77,7 @@ const RegisterScreen = ({ location, history }) => {
           <Form.Label>Xác nhận mật khẩu</Form.Label>
           <Form.Control
             type='password'
-            placeholder='Confirm password'
+            placeholder='Xác nhận password'
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
           ></Form.Control>

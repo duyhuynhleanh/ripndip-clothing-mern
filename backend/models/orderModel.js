@@ -61,6 +61,16 @@ const orderSchema = mongoose.Schema(
       default: 0.0,
     },
 
+    isCanceled: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
+
+    canceledAt: {
+      type: Date,
+    },
+
     isPaid: {
       type: Boolean,
       required: true,

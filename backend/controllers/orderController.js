@@ -1,5 +1,6 @@
 import asyncHandler from 'express-async-handler'
 import Order from '../models/orderModel.js'
+import Product from '../models/productModel.js'
 
 // @desc    Create new order
 // @route   POST /api/orders
@@ -20,6 +21,12 @@ const addOrderItems = asyncHandler(async (req, res) => {
     throw new Error('No order items')
     return
   } else {
+    orderItems.forEach(async (i) => {
+      const product = await Product.findById(i.product)
+      product.countInStock = product.countInStock - i.qty
+      await product.save()
+    })
+
     const order = new Order({
       orderItems,
       user: req.user._id,
@@ -48,6 +55,32 @@ const getOrderById = asyncHandler(async (req, res) => {
 
   if (order) {
     res.json(order)
+  } else {
+    res.status(404)
+    throw new Error('Order not found')
+  }
+})
+
+// @desc    Update order to canceled
+// @route   GET /api/orders/:id/canceled
+// @access  Public
+const updateOrderToCanceled = asyncHandler(async (req, res) => {
+  const order = await Order.findById(req.params.id)
+
+  if (order) {
+    order.isCanceled = true
+    order.isDelivered = false
+    order.isPaid = false
+    order.canceledAt = Date.now()
+
+    const updatedOrder = await order.save()
+
+    order.orderItems.forEach(async (i) => {
+      const product = await Product.findById(i.product)
+      product.countInStock = product.countInStock + i.qty
+      await product.save()
+    })
+    res.json(updatedOrder)
   } else {
     res.status(404)
     throw new Error('Order not found')
@@ -119,6 +152,7 @@ export {
   getOrderById,
   updateOrderToPaid,
   updateOrderToDelivered,
+  updateOrderToCanceled,
   getMyOrders,
   getOrders,
 }
